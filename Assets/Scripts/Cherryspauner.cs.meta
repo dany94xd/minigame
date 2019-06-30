@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: ca470136c05f5eb4fb90333f48bb9064
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - cherryPrefab: {fileID: 8811036054906018388, guid: 7037bb8ccb0026b409c79d3c5af64070,
+      type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

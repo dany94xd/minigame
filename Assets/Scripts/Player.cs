@@ -39,7 +39,7 @@ public class Player : MonoBehaviour
         {
 
             canJump = false;
-            gameObject.GetComponent<Rigidbody2D>().AddForce(new Vector2(0,100f));
+            gameObject.GetComponent<Rigidbody2D>().AddForce(new Vector2(0,500f));
         }
 
 
@@ -49,7 +49,7 @@ public class Player : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.transform.tag=="ground")
+        if (collision.transform.tag=="piso" || collision.transform.tag=="plataforma")
         {
             canJump = true;
         }
